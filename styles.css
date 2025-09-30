@@ -121,6 +121,13 @@ textarea {
 
 .lista-tags {
     display: flex;
+    gap: 8px;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+.remove-tag {
+    cursor: pointer;
 }
 
 .container-botoes {
